@@ -1,9 +1,88 @@
 import { IApiResult } from "@eway-crm/connector";
 
 export type TContactsResopnse = IApiResult & {
-    Data: TContact[]
+    Data: TContact[];
 };
 
 export type TContact = {
-    FileAs: string | null;
+    Companies_CompanyGuid: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    BusinessAddressStreet: string;
+    BusinessAddressCity: string;
+    BusinessAddressState: string;
+    BusinessAddressCountryEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    BusinessAddressPOBox: string;
+    BusinessAddressPostalCode: string;
+    HomeAddressStreet: string;
+    HomeAddressCity: string;
+    HomeAddressState: string;
+    HomeAddressCountryEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    HomeAddressPOBox: string;
+    HomeAddressPostalCode: string;
+    OtherAddressStreet: string;
+    OtherAddressCity: string;
+    OtherAddressState: string;
+    OtherAddressCountryEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    OtherAddressPOBox: string;
+    OtherAddressPostalCode: string;
+    Company: string;
+    Email1Address: string;
+    Email2Address: string;
+    Email3Address: string;
+    FirstName: string;
+    ICQ: string;
+    ImportanceEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    LastName: string;
+    MiddleName: string;
+    MSN: string;
+    Note: string;
+    PrefixEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    SuffixEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    Skype: string;
+    TelephoneNumber1: string;
+    TelephoneNumber2: string;
+    TelephoneNumber3: string;
+    TelephoneNumber4: string;
+    TelephoneNumber5: string;
+    TelephoneNumber6: string;
+    TelephoneNumber1Normalized: string;
+    TelephoneNumber2Normalized: string;
+    TelephoneNumber3Normalized: string;
+    TelephoneNumber4Normalized: string;
+    TelephoneNumber5Normalized: string;
+    TelephoneNumber6Normalized: string;
+    Department: string;
+    Title: string;
+    WebPage: string;
+    DoNotSendNewsletter: true;
+    ProfilePicture: string;
+    ProfilePictureWidth: 0;
+    ProfilePictureHeight: 0;
+    LastActivity: "2026-02-06T19:34:59.719Z";
+    NextStep: "2026-02-06T19:34:59.719Z";
+    TypeEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    StateEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    PrevStateEn: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    IsPrivate: true;
+    Server_ItemCreated: "2026-02-06T19:34:59.719Z";
+    Server_ItemChanged: "2026-02-06T19:34:59.719Z";
+    ItemCreated: "2026-02-06T19:34:59.719Z";
+    ItemChanged: "2026-02-06T19:34:59.719Z";
+    FileAs: string;
+    OwnerGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    CreatedByGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    ModifiedByGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    Relations: [
+        {
+            ItemGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+            RelationDataGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+            RelationType: string;
+            ForeignFolderName: string;
+            ForeignItemGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+            DifferDirection: true;
+            OwnerGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+            MainItemGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+        }
+    ];
+    ItemGUID: "3fa85f64-5717-4562-b3fc-2c963f66afa6";
+    ItemVersion: 0;
 };

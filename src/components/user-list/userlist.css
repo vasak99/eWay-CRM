@@ -1,0 +1,15 @@
+.users-container {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  padding: .5rem;
+}
+
+.user-item {
+  padding: .25rem .5rem;
+  cursor: pointer;
+}
+
+.user-item:hover {
+  background-color: lightgray;
+}
